@@ -19,11 +19,12 @@ body {
   padding: 0 !important;
   font-family: "Baloo Chettan 2", sans-serif;
   font-size: 16px;
+  background-color: whitesmoke;
   /* overflow-x: hidden !important; */
 }
 .font-alexBrush {
   font-family: "Alex Brush", cursive;
-  color: #48202a;
+  color: #33558b;
   font-weight: 900;
 }
 
@@ -56,7 +57,7 @@ body::-webkit-scrollbar-thumb:hover,
 .image-holder {
   width: 100%;
   height: 400px;
-  background-image: url("../img/bgheader.jpeg");
+  background-image: url("../img/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,28 +67,28 @@ body::-webkit-scrollbar-thumb:hover,
   line-height: 70px;
 }
 .btn-brown {
-  background-color: #48202a;
+  background-color: #33558b;
   color: white;
   border-radius: 0;
   transition: 0.3s ease-out;
 }
 .btn-brown:hover {
   background-color: white;
-  color: #48202a;
-  border: 1px solid #48202a;
+  color: #33558b;
+  border: 1px solid #33558b;
   width: -webkit-fit-content !important;
   width: -moz-fit-content !important;
   width: fit-content !important;
 }
 .btn-outline-brown {
   background-color: white;
-  color: #48202a;
-  border: 1px solid #48202a;
+  color: #33558b;
+  border: 1px solid #33558b;
   border-radius: 0;
   transition: 0.3s ease-out;
 }
 .btn-outline-brown:hover {
-  background-color: #48202a;
+  background-color: #33558b;
   color: white;
 }
 ul {
@@ -102,14 +103,14 @@ ul li {
 }
 /* BODY */
 #content > div:not(:last-child) {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 .hadith {
   text-align: center;
   margin: auto;
 }
 .intro-person {
-  padding: 4rem 0;
+  /* padding: 4rem 0; */
 }
 .container-couple {
   display: flex;
@@ -126,19 +127,22 @@ ul li {
 .photo-holder img {
   width: 100%;
   border-radius: 200px;
-  border: 5px solid #48202a;
+  border: 5px solid #33558b;
   padding: 5px;
 }
 .desc-groom {
-  flex-basis: 60%;
-  padding: 15px;
+  flex-basis: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 .desc-groom h1,
 .desc-groom p {
   line-height: 1;
 }
 .schedule {
-  display: flex;
+  /* display: flex; */
 }
 .akad {
   flex-basis: 50%;
@@ -195,13 +199,13 @@ iframe {
   height: 400px;
 }
 .i4ewOd-pzNkMb-haAclf {
-  background-color: #48202a !important;
+  background-color: #33558b !important;
 }
 .countdown-container {
-  background-image: url("../img/bg_countdown.png");
+  background-image: url("../img/bg.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
 }
 .countdown-container .container {
   display: flex;
@@ -254,17 +258,17 @@ iframe {
   transition: 0.3s;
 }
 .timeline:hover {
-  color: #48202a;
+  color: #33558b;
 }
 .timeline:hover .year {
-  color: #48202a;
+  color: #33558b;
   /* transform: scale(1.1); */
 }
 .timeline:hover .timelineBar::after {
-  border: 3px solid #48202a;
+  border: 3px solid #33558b;
 }
 .timelineBar {
-  border: 1px solid #48202a;
+  border: 1px solid #33558b;
   width: 1px;
   position: relative;
   top: 20px;
@@ -272,7 +276,7 @@ iframe {
   margin-left: 10px;
 }
 .timelineBar::after {
-  border: 3px solid #48202a;
+  border: 3px solid #33558b;
   border-radius: 50%;
   content: "";
   height: 20px;
@@ -303,7 +307,7 @@ iframe {
   width: 100%;
 }
 .closing-hadith {
-  background-image: url("../img/bg_lovestory.svg");
+  background-image: url("../img/bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -329,12 +333,12 @@ iframe {
   bottom: 1.5rem;
   right: 1rem;
   cursor: pointer;
-  color: #48202a;
+  color: #33558b;
 }
 /* CHAT */
 .chatbox-container {
   /* background: linear-gradient(120deg, #17bebb, #f0a6ca); */
-  background: linear-gradient(120deg, #a5a8a0, #edecd4);
+  background: linear-gradient(120deg, #c7d6ee, #bcd6ff);
   padding: 4rem 0;
 }
 .chatbox {
@@ -410,7 +414,7 @@ footer {
   width: 100%;
   padding: 10px 30px;
   text-align: center;
-  background: white;
+  background: #33558b;
   color: black;
 }
 footer span {
@@ -440,7 +444,7 @@ footer .social-media a {
     color: black;
   }
   .timeline .timelineBar::after {
-    border: 3px solid #48202a;
+    border: 3px solid #33558b;
   }
 }
 @media screen and (max-width: 575px) {
@@ -453,6 +457,7 @@ footer .social-media a {
   /* Body */
   body {
     font-size: 14px;
+    background-color: whitesmoke;
   }
   .image-holder {
     height: 310px;
@@ -504,4 +509,64 @@ footer .social-media a {
   .form-wishes {
     flex-basis: 100%;
   }
+}
+
+.landing-page {
+  position: relative;
+}
+
+.landing-ornament {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 30%;
+}
+
+.landing-corner-top {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  height: 20%;
+  -webkit-transform: scaleX(-1) scaleY(-1);
+  transform: scaleX(-1) scaleY(-1);
+}
+.landing-corner-bottom {
+  position: absolute;
+  bottom: 75px;
+  right: 21px;
+  height: 20%;
+}
+
+.ornament-top-right {
+  position: absolute;
+  top: -52px;
+  right: 3px;
+  height: 20%;
+}
+
+.ornament-top-left {
+  position: absolute;
+  top: -52px;
+  left: 3px;
+  height: 20%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.ornament-bottom-right {
+  position: absolute;
+  bottom: -46px;
+  right: 3px;
+  height: 67%;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.ornament-bottom-left {
+  position: absolute;
+  bottom: -46px;
+  left: 3px;
+  height: 67%;
+  -webkit-transform: scaleX(-1) scaleY(-1);
+  transform: scaleX(-1) scaleY(-1);
 }
