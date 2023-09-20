@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gita & Rizaldy Wedding</title>
+    <title>Celine & Rizal Wedding</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,9 +16,12 @@
 <body>
     <main>
         <div id="content">
-            <div class="landing-page" style="margin-top:100px;">
+            <div class="landing-page" style="height: 100vh;">
+                <img src="img/ornament/top-left.png" alt="" class="landing-corner-top">
+                <img src="img/ornament/top-landing.png" alt="" class="landing-ornament">
+
                 <div class="landpage-caption text-center pt-3 overflow-x-hidden" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1300">
-                    <img src="img/name.png" alt="" style="max-width: 40%; margin-bottom: 100px;">
+                    <img src="img/name.png" alt="" class="img-depan">
                     <br><br>
                     <p class="text-secondary text font-italic">Kepada Bapak/Ibu Saudara/i :</p>
                     <h1 class="font-alexBrush text-center"><?php echo ucwords(@$_GET['to']) ?></h1>
@@ -27,13 +30,15 @@
                     </div>
                     <br><br><br>
                 </div> <!-- end landpage-caption -->
-            </div> <!-- end landing-page -->
 
+                <img src="img/ornament/flower.png" alt="" class="ornament-bottom-right">
+                <img src="img/ornament/flower.png" alt="" class="ornament-bottom-left">
+            </div> <!-- end landing-page -->
         </div> <!-- end #content -->
     </main>
     <footer>
         <div class="text-center">
-            <img src="img/logo.png" alt="Tower Barat Creative" style="max-width: 50%;">
+            <img src="img/logo.png" alt="Tower Barat Creative" class="img-footer">
         </div>
     </footer>
     <script>
